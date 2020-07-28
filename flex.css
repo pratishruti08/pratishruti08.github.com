@@ -1,0 +1,373 @@
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.flex-container
+{
+  
+    background-color: #920000;
+    height: 70px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.flex-container nav {
+    
+   /** margin-top: 28px;
+    margin-right: 25px;**/
+      
+    
+  }
+
+  nav a
+  {
+     color: antiquewhite;
+     font-size: 20px;
+     text-decoration: none;
+     margin-right: 30px;
+     display: block;
+     height: 68%;
+     float: left;
+     padding-top: 25px;
+     padding-right: 20px;
+     padding-left: 20px;
+  }
+
+  nav a:hover
+  {
+      background-color:#00223e ;
+  }
+
+  .flexhero-header
+  {
+    height: 700px;
+    display: flex;
+    /*background: url("https://cdn.shopify.com/s/files/1/0301/0065/files/rain_background_spring_gis_2048_2048x2048.jpg?6289901723855561721") no-repeat center;
+  */
+    justify-content: center;
+    align-items: center;
+    background-color: #303841;
+  }
+
+  .flexhero-header div
+  {
+      border:1px black;
+  }
+
+  .flexhero-header h1 {
+      font-family: Arial, Helvetica, sans-serif;
+      color: brown;
+      font-size: 50px;
+  }
+
+  .flexhero-header .tagline 
+  {
+    font-family: 'Courier New', Courier, monospace;
+    color: burlywood;
+    font-size: 50px;
+  }
+
+  
+  .photos-title h4 {
+    font-size: 40px;
+    color:white;
+    text-decoration-line: underline;
+    text-decoration: bold;
+    text-align: center;
+    
+}
+
+
+ .photos
+ {
+     background-color:#627194;     
+    display: flex;
+    justify-content: space-around;
+    /*flex-wrap: wrap;*/
+    
+  }
+
+
+ .photos h4
+   {
+       color:burlywood;
+       text-align: center;
+       font-size: 50px;
+   }
+
+   .photos .img 
+   {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content:space-around;
+    width: 100px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+   }
+
+   .photos section {
+    align-content: center;
+}
+.photos table {
+    align-self: center;
+    align-items: center;
+    width: 100%;
+    margin: 50px;  
+}
+
+.photos table tr{
+    cellpadding: 20px;
+    align-items: center;
+}
+
+.photos table td{
+    width: 33%;
+    margin: 50px;
+    padding: 50px;
+    align-items: center;
+}
+
+.photos .img .image{
+  width: 10px;
+  height: 15px;
+}
+
+
+.image-caption p{
+  margin: 0px;
+  width: 350px;
+  height: 45px;
+  background-color: black;
+  
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  text-decoration: bold;
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+  
+  .show1 {
+      color: black;
+  }
+}
+
+.show1{
+  
+  color: black;
+  transition: color .5s ease-in-out;
+
+}
+.image-caption p:hover .show1{
+  
+      color: brown;
+  
+}
+
+.shownext {
+  display: flex;
+  justify-content: center;
+  background-color: #627194;
+}
+
+.shownext a {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  margin-top: 40px;
+  margin-bottom: 80px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 24px;
+  text-decoration: none;
+  border-radius: 20px;
+  
+  font-weight: bold;
+  /*width: 150px;*/
+}
+.shownext a:hover {
+  background-color: red;
+}
+.shownext a:hover .next1{
+  background-color: red;
+  word-spacing: 7px;
+  transition: word-spacing 0.5s ease-in-out;
+}
+
+.Flex-contact {
+  display: flex;
+  height: 300px;
+  margin: 0;
+  background-color: rgb(41, 41, 41);
+  
+  justify-content: center;
+  align-items: center;
+}
+.Flex-contact div {
+  text-align: center;
+}
+
+.Flex-contact .contact-greet {
+  margin-top: 50px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+}
+
+.Flex-contact .contact-tagline {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 20px;
+  font-style: italic;
+  word-spacing: 2px;
+  color: white;
+  padding-bottom: 80px;
+  margin-bottom: 100px;
+}
+
+.Flex-contact .social-media {
+  display: flex;
+  width: 100%;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 30px;
+  color: white;
+}
+
+.Flex-contact table {
+  margin-top: 40px;
+}
+
+.Flex-contact table td{
+  padding: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 30px;
+  color: white;
+  align-items: center;    
+}
+
+.facebook a{
+  color: white;
+  text-decoration: none;
+}
+
+.facebook{
+  padding: 40px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 30px;
+  color: white;
+  
+}
+
+.facebook:hover{
+  color: white;
+  transition: padding .5s ease-in-out;
+  padding-top: 40px;
+  padding-bottom: 0;
+}
+
+.github{
+  padding: 40px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 30px;
+  color: white;
+  
+}
+
+.github:hover{
+  color: white;
+  transition: padding .5s ease-in-out;
+  padding-top: 40px;
+  padding-bottom: 0;
+}
+
+.twitter{
+  padding: 40px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 30px;
+  color: white;
+  
+}
+
+.twitter:hover{
+  color: white;
+  transition: padding .5s ease-in-out;
+  padding-top: 40px;
+  padding-bottom: 0;
+}
+
+.email {
+  padding: 40px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 30px;
+  color: white;
+  
+}
+
+.email:hover{
+  color: white;
+  transition: padding .5s ease-in-out;
+  padding-top: 40px;
+  padding-bottom: 0;
+}
+
+.call{
+  padding: 40px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 30px;
+  color: white;
+  
+}
+
+.call:hover{
+  color: white;
+  transition: padding .5s ease-in-out;
+  padding-top: 40px;
+  padding-bottom: 0;
+}
+
+.Flex-contact .social-media img {
+  height: 20px;
+}
+
+.Flex-contact hr{
+
+}
+
+
+.copyright {
+  display: flex;
+  height: 100px;
+  margin: 0;
+  background-color: rgb(41, 41, 41);
+  justify-content: space-evenly;
+  
+}    
+  
+.hr {
+  display: inline;
+  background-color: rgb(41, 41, 41);
+  margin: 0;
+  padding: 0;
+}   
+
+hr {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  border: 2px solid red;
+  
+}
+
+.copyright .bottomline {
+  margin-top: 40px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 18px;
+  color: white;
+  align: center;
+}

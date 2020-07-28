@@ -1,43 +1,153 @@
 <html>
     <head>
+        <link rel="stylesheet" type="text/css" href="flex.css">
         <title>Me My Myself</title>
+        
+            
     </head>
 
-    <body>
-        <H1>Pratishruti Saxena</H1>
-        <img src="me.jpg" width="275" height="200">
-    </br>
-</br>
-</br>
+       <body class="body">
+     
+<header>
+        <div class="flex-container">
+            <div>
+                <img src="me.jpg" width="70" height="70">
+            </div>          
+                    
+            <div>
+                   <nav>
+                <a href="aboutme.html">About Me</a>
+                <a href="edu.html">Education</a>
+                <a href="myskils.html">My Skills</a>
+                <a href="hobby.html">Hobby</a>
+                <a href="gallary.html">Gallary</a>
+                   </nav>   
+             
+           </div>
+        </div>
+ </header>
 
-        <table border="5" cellspacing="15" cellpadding="15" align="center"> 
-            <tr>
 
-            <td><a href="aboutme.html"><h2>About Me</h2></a></td>
-            <td><a href="edu.html"><h2>Education</h2></a></td>
-            <td><a href="myskils.html"><h2>My Skills</h2></a></td>
-            <td><a href="hobby.html"><h2>Hobby</h2></a></td>
-            <td><a href="gallary.html"><h2>Gallary</h2></a></td>
-            
-            </tr></table>
+<section>
+    <div class="flexhero-header">
+        <div>
+           <h1>I am Pratishruti</h1> </br>
+           <span class="tagline">a learner</span> 
 
-            <h2><u>Contact</u>:-</h2>
-            First name:
-            <input type="text" name="first_name"            /> <br /><br />
-            Last name: <input type="text" name="last_name" /><br /><br />
-            Mobile: <input type="number" name="mobile" /> <br /><br />
-            Email: <input type="email" name="email" /><br /><br />
-            City:
-            <select name="City">
-                <option value="jp">Jaipur</option>
-                <option value="aj" >Ajmer</option>
-                <option value="BH">Bhilwara</option>
-            </select>
-            <br /><br />
-            Testimonial: <textarea name="large_text"> </textarea></body> </br></br></br>
+        </div>       
+    </div>
+</section>  
 
-            <button type="button" value="Save">Button</button>
-            
+<section>
+ <div class="photos">
+    <div class="photos-title">
+      <h4>These are some of my projects</h4></div> </br>
+    </div>
+
+     <div class="photos">
+
+        <section>
+            <table>
+                <tr>
+                    <td>
+                        <div class="image">
+                            <img src="img/t1b.jpg" width="350" height="450"/>
+                            <span class="image-caption">
+                                <p><span class="show1"><</span> Tribute page<span class ="show1">/></span></p>
+                            </span>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="image">
+                            <img src="img/2b.png" width="350" height="450"/>
+                            <span class="image-caption">
+                                <p><span class="show1"><</span> Random quote machine <span class ="show1">/></span></p>
+                            </span>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="image">
+                            <img src="img/3b.png" width="350" height="450"/>
+                            <span class="image-caption">
+                            <p><span class="show1"><</span> Javascript calculator <span class ="show1">/></span></p>
+                        </span>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="image">
+                            <img src="img/4b.jpg" width="350" height="450" />
+                            <span class="image-caption">
+                                <p><span class="show1"><</span> Map data acroos the globe <span class ="show1">/></span></p>
+                            </span>
+                        </div>
+                    </td>
+                    
+                    <td>
+                        <div class="image">
+                            <img src="img/5b.png" width="350" height="450"/>
+                            <span class="image-caption">
+                                <p><span class="show1"><</span> Wikipedia viewer <span class ="show1">/></span></p>
+                            </span>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="image">
+                            <img src="img/6b.png" width="350" height="450"/>
+                            <span class="image-caption">
+                                <p> <span class="show1"><</span> Tic tac toe game <span class ="show1">/></span></p>
+                            </span>
+                        </div>
+                    </td>
+                </tr>
+                </table>
+
+
+        </section>
+
+     </div>
+     <div class="shownext">
+        <br />
+        <a href="">Show all<span class= "next1"> ></span></a>
+        <br />
+    </div>
+ </div>
+</section>
+
+<section>
+    <div class="Flex-Contact">
+        <div>
+            <span class="contact-greet">Let's work together...</span>
+            <br>
+            <span class="contact-tagline">How do you take your coffee?<br /></span>
+            <div class="social-media">
+                <table>
+                    <tr>
+                        <td class="facebook"><img src="img/facebook.png">Facebook</td>
+                        <td class="github"><img src="img/github.png">Github</td>
+                        <td class="twitter"><img src="img/twitter.png">Twitter</td>
+                        <td class="email"><img src="img/mail.png">Send a mail</td>
+                        <td class="call"><img src="img/call.png">Call me</td>
+                    </tr>
+                </table>
+            </div> 
+            <br />
+            <br />
+        </div>
+    </div>
+</section>
+<section class="hr"><hr /></section>
+<section>
+    <div class="copyright">
         
+        
+        <div class="bottomline">
+        <span>**This is just a practice portfolio. 
+        All the projects and contact details given are not real.</span>
+        <span>© Created for learning web development </span>
+        </div>
+    </div>
+</section>
     </body>
 </html>
