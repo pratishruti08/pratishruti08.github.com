@@ -1,0 +1,77 @@
+.body{
+    background: url("https://i.ytimg.com/vi/8ZMxLZqL73M/maxresdefault.jpg");
+    margin: 0;
+    background-attachment: fixed;
+
+}
+
+
+p {
+  color:#ffffe1;
+  text size: 50px;
+}
+
+  .container {
+
+    display: block;    
+    width: 100%;
+    background-color:#103a64;
+    opacity: 0.9;
+    height: min-content;
+    
+  }
+  
+  .formdec {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    
+    
+  }
+
+  
+.formdec h1 {
+  margin: 0;
+  padding-top: 20px;
+  padding-bottom: 5px;
+  font-family: 'lato', sans-serif;
+  font-size: 30px;
+  letter-spacing: 2px;
+  color: white;
+}
+
+.formdec h3 {
+  margin: 0;
+  padding-top: o;
+  padding-bottom: 2px;
+  font-family: 'poppins', sans-serif;
+  font-size: 16px;
+  letter-spacing: 2px;
+  color: white;
+}
+  .formdec table {
+    padding:10px;
+    margin-top: 20px;
+    margin-left: 530px;
+    width: 360px;
+    background-color: rgb(14, 14, 68);
+    fill-opacity: 1;
+    text size: 30px;
+  }
+
+
+  input {
+    align: left;
+  }
+
+  .formdec .block {
+    width: 100%;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    text-align: center;
+  }
+  

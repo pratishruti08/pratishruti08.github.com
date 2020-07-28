@@ -62,6 +62,7 @@ body {
       font-family: Arial, Helvetica, sans-serif;
       color: brown;
       font-size: 50px;
+      margin: 0px;
   }
 
   .flexhero-header .tagline 
@@ -151,7 +152,7 @@ body {
   text-decoration: bold;
   color: white;
   text-align: center;
-  padding-top: 10px;
+  padding-top: 20px;
   
   .show1 {
       color: black;
