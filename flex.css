@@ -9,7 +9,7 @@ body {
   
     background-color: #920000;
     height: 70px;
-    padding: 5px;
+    /*padding: 5px;*/
     display: flex;
     justify-content: space-between;
     
@@ -28,7 +28,7 @@ body {
      color: antiquewhite;
      font-size: 20px;
      text-decoration: none;
-     margin-right: 30px;
+     
      display: block;
      height: 68%;
      float: left;
@@ -46,11 +46,10 @@ body {
   {
     height: 700px;
     display: flex;
-    /*background: url("https://cdn.shopify.com/s/files/1/0301/0065/files/rain_background_spring_gis_2048_2048x2048.jpg?6289901723855561721") no-repeat center;
-  */
     justify-content: center;
     align-items: center;
     background-color: #303841;
+    text-align: center;
   }
 
   .flexhero-header div
@@ -59,88 +58,53 @@ body {
   }
 
   .flexhero-header h1 {
-      font-family: Arial, Helvetica, sans-serif;
-      color: brown;
+      font-family:'Poppins', sans-serif;
+      color: white;
       font-size: 50px;
       margin: 0px;
   }
 
   .flexhero-header .tagline 
   {
-    font-family: 'Courier New', Courier, monospace;
-    color: burlywood;
-    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+    color: #920000;
+    font-size: 40px;
+    
   }
 
   
-  .photos-title h4 {
+  .photos-title{
     font-size: 40px;
     color:white;
     text-decoration-line: underline;
     text-decoration: bold;
     text-align: center;
-    
+    background-color:#627194;  
+    height: 80px; 
+    padding-top: 10px;
 }
 
-
- .photos
- {
+ .photos {
      background-color:#627194;     
     display: flex;
-    justify-content: space-around;
-    /*flex-wrap: wrap;*/
+    flex-wrap: wrap; 
     
   }
 
-
- .photos h4
-   {
-       color:burlywood;
-       text-align: center;
-       font-size: 50px;
-   }
-
-   .photos .img 
-   {
-    display: flex;
-    flex-wrap: wrap;
-    margin: auto;
-    justify-content:space-around;
-    width: 100px;
-    margin-bottom: 0px;
-    margin-top: 10px;
-   }
-
-   .photos section {
-    align-content: center;
-}
-.photos table {
-    align-self: center;
-    align-items: center;
-    width: 100%;
-    margin: 50px;  
-}
-
-.photos table tr{
-    cellpadding: 20px;
-    align-items: center;
-}
-
-.photos table td{
-    width: 33%;
-    margin: 50px;
-    padding: 50px;
-    align-items: center;
-}
-
-.photos .img .image{
-  width: 10px;
-  height: 15px;
+.photos div {
+  background-color: :#f1f1f1;  
+  width: 450px;
+  margin: 50px;
+  text-align: center;
+  
+  font-size: 30px;
 }
 
 
+  
 .image-caption p{
   margin: 0px;
+  margin-left: 48px;
   width: 350px;
   height: 45px;
   background-color: black;
@@ -148,7 +112,7 @@ body {
   border-bottom-left-radius: 4px;
   border-bottom-right-radius: 4px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 15px;
+  font-size: 20px;
   text-decoration: bold;
   color: white;
   text-align: center;
@@ -186,8 +150,7 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 24px;
   text-decoration: none;
-  border-radius: 20px;
-  
+  border-radius: 4px;  
   font-weight: bold;
   /*width: 150px;*/
 }
@@ -249,6 +212,12 @@ body {
   font-size: 30px;
   color: white;
   align-items: center;    
+}
+
+.smlogo{
+  width: 17px;
+  height: 20px;
+  padding-right: 5px;
 }
 
 .facebook a{
