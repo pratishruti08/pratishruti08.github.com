@@ -1,11 +1,13 @@
 <html>
     <head>
         <link rel="stylesheet" type="text/css" href="form.css">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+
         <title>survey</title>
 
     </head>
     <body class="body">
-                <h1>Survey Form </h1>
+                <h1>freeCodeCamp Survey Form</h1>
                 <h3>Thank you for taking the time to improve our platform</h3>
         <div class="container">
             
@@ -14,20 +16,29 @@
                             <form action="form.php" method="post">
     
                             <p class="label">Name</p>
-                            <p><input type="text" size=80 placeholder="Enter your name"></p>
+                            <p><input type="text" size="80" placeholder="Enter your name"></p>
                             
                             <p class="label">Email</p>
-                            <p><input type="text" size=80 placeholder="Enter your Email"></p>
+                            <p><input type="text" size="80" placeholder="Enter your Email"></p>
                             
                             <p class="label">Age</p>
-                            <p><input type="text" size=80 placeholder="Age"></p>
+                            <p><input type="number" name="age" id="number" min="10" max="99" placeholder="Age"></p>
                             
                             <p class="label">Which option best describes your current role?</p>
-                            <p><input type="text" size=80 placeholder="Select current role"></p>
+                            <p> <select id="role" name="current-role" class="dropdown">
+                                <option disabled selected value>Select current role</option>
+                                <option value="Student">Student</option>
+                                <option value="fulltimejob">Full time job</option>
+                                <option value="Fulltimelearner">Full time learner</option>
+                                <option value="notsay">Prefer not to say</option>
+                                <option value="other">Other</option>
+                              </select>
+                            </p>
+
     
                             <p class="label">Would you recommend freeCodeCamp to a friend?</p>
                             <p><input type="radio" id="definitely" name="recommend" value="definitely" checked />
-                            <label>Definitely</label>
+                            <label for="definitely">Definitely</label>
                             
                             <p><input type="radio" name="recommend" value="maybe" />
                                 <label>Maybe</label>
@@ -73,7 +84,7 @@
                                 <label>Additional Courses</label>
     
                             <p class="label">Any comments or suggestions?</p>
-                            <p><textarea rows=4 cols=85 placeholder="Enter your comment here..."></textarea></p>           
+                            <p><textarea id="comments" name="comment" class="textarea" placeholder="Enter your comment here..."></textarea></p>           
                                     
                             <button class="block" type="submit" value="Save">Submit</button>
                         
