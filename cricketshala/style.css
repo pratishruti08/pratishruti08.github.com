@@ -1,0 +1,103 @@
+.flex-container{
+  
+    background-color: white;
+    height: 100px;
+    padding left: 50px;
+    display: flex;
+    justify-content: space-between; 
+    margin-top: 0;
+ 
+}
+
+.flex-container .logo{
+    padding-left: 100px;
+    padding-top: 7px;
+}
+
+
+nav a{
+    text-decoration: none;
+    font-size: 20px;    
+    
+     height: 68%;
+     float: left;
+     padding-top: 25px;
+     padding-right: 55px;
+     padding-left: 20px;
+
+}
+
+.flexhero-header{    
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: DodgerBlue;
+    text-align: center;
+}
+
+h1{
+    color: #ffffff;
+    font-size: 2em;    
+    margin-bottom: 0;
+}
+
+h2{
+    
+        color: #ffffff;
+        font-size: 1.5em;
+        padding-top: 0;
+        margin-bottom: 0;
+    
+}
+
+input[type=text] {
+    padding: 5px 10px;
+    align: left;
+    width: 50%;
+    height: 35px;
+    border: none;
+    border-color: cornflowerblue;
+    border-radius: 5px;
+    transition: border-color 0.8s ease-in-out;
+    font-family: 'roboto', sans-serif;
+    font-size: 18px;
+  }
+
+  .button{
+      background-color: rgb(238, 17, 51);
+      height: 45px;
+      margin: 15px;
+      border: none;
+  }
+
+  .articles {
+      
+     background-color:lightslategray;     
+     display: block;
+     flex-wrap: wrap; 
+     justify-content: center;
+     border: tomato;
+  }
+
+  .articles div {
+    background-color: :#f1f1f1;  
+    width: 450px
+    margin: 50px;
+    text-align: center;  
+    font-size: 30px;
+    
+         
+  }
+  .articles .arti-img{
+      width: 194px;
+      height: 110px;
+      border:10px;
+      border-color: white;
+
+  }
+
+  .arti-tital{
+ display: block;
+ 
+  }
