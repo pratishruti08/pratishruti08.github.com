@@ -1,0 +1,46 @@
+.container {
+    margin: 100px;
+    height: 800px;
+    width: 800px;
+    border: 2px soild black;
+    display: block;
+}
+.petal1 {
+    height: 100px;
+    width: 280px;
+    border-radius: 50px;
+    background-color: rgb(122, 78, 226);
+    display: block;
+    position: absolute;
+}
+.petal2 {
+    height: 100px;
+    width: 280px;
+    border-radius: 50px;
+    background-color: rgb(122, 78, 226);
+    display: block;
+    transform: rotate(60deg);
+    position: absolute;
+}
+.petal3 {
+    height: 100px;
+    width: 280px;
+    border-radius: 50px;
+    background-color: rgb(122, 78, 226);
+    display: block;
+    transform: rotate(300deg);
+    position: absolute;
+}
+.stem {
+    display: block;
+    width: 10px;
+    height: 100%;
+    background-color: rgb(20, 201, 147);
+    position: relative;
+}
+.pot {
+    display: block;
+    width: 200px;
+    height: 30px;
+    background-color: sienna;
+}

@@ -92,6 +92,12 @@ body {
     justify-content: center;
     
   }
+  
+.photos img {
+  width: 350px;
+  object-fit:contain;
+  justify-self: center;
+}
 
 .photos div {
   background-color: :#f1f1f1;  
