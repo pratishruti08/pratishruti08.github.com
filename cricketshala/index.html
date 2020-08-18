@@ -2,7 +2,19 @@
 <html>
     <head>
         <link rel="stylesheet" type="text/css" href="style.css" />
+        <meta name="viewport" content="width=device-width, initial-width=1.0" />
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
         <title>Criketshala-criket coaching online</title>
+        <script>
+            function myFunction() {
+                var x = document.getElementById("menu-toggle");
+                if (x.style.display === "none") {
+                    x.style.display = "block";
+                } else {
+                    x.style.display = "none";
+                }
+            }
+        </script>
     </head>
     <body>
         <header>
@@ -11,13 +23,25 @@
                     <img src="img/CricketShala-Logo.png" />
                 </div>
                 <div>
-                    <nav>
+                    <nav class="big-screen">
                         <a href="">Home</a>
                         <a href="">Tips & tatics</a>
                         <a href="">Product review</a>
                         <a href="">Interviews & Bio</a>
                     </nav>
                 </div>
+            </div>
+
+            <div class="btn-menu">
+                <button onclick="myFunction()">
+                    <i class="fas fa-bars"> MENU</i>
+                </button>
+            </div>
+            <div id="menu-toggle" style="display: none;">
+                <p><a href="">Home</a></p>
+                <p><a href="">Tips & Tactics</a></p>
+                <p><a href="">Product Reviews</a></p>
+                <p><a href="">Interviews & Bio</a></p>
             </div>
         </header>
 
@@ -34,9 +58,11 @@
                         type="text"
                         size="80"
                         placeholder="Email address"
-                    /><button type="button" class="button">
-                        Yes, I want to improve!
-                    </button>
+                    /><input
+                        type="button"
+                        class="button"
+                        value="Yes, I want to improve!"
+                    />
                 </div>
             </div>
         </section>
