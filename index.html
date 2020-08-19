@@ -9,10 +9,9 @@
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
         />
         <script>
-            function opennav() {
+            function shownav() {
                 var links = document.querySelector(".links");
-                var icon = document.querySelector(".bar-icon i");
-
+                var icon = document.querySelector(".icon i");
                 if (links.style.display == "block") {
                     links.style.display = "none";
                     icon.classList.remove("fa-close");
@@ -28,22 +27,18 @@
 
     <body class="body">
         <header>
-            <div class="flex-container">
-                <div>
-                    <img src="me.jpg" width="70" height="70" />
-                </div>
-
-                <div>
-                    <nav class="links">
-                        <a href="#">About Me</a>
-                        <a href="#work">Work</a>
-                        <a href="#contact">Contact</a>
-                    </nav>
-                    <div class="bar-icon">
-                        <i class="fa fa-bars" onclick="opennav()"></i>
-                    </div>
-                </div>
+            <div>
+                <img src="me.jpg" width="70" height="70" />
             </div>
+
+            <nav class="links">
+                <a href="#">About Me</a>
+                <a href="#work">Work</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            <nav class="icon">
+                <i class="fa fa-bars" onclick="shownav()"></i>
+            </nav>
         </header>
 
         <section>
@@ -208,6 +203,7 @@
                 </div>
             </div>
         </section>
+
         <section class="hr"><hr /></section>
         <section>
             <div class="copyright">

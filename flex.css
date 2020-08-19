@@ -5,6 +5,7 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
+
 .flex-container
 {
   
@@ -14,10 +15,17 @@ body {
     justify-content: space-between;
     position: fixed;
     width: 100%;
-    
+    color: white;
+       
     
 }
-
+header {
+  background-color: brown;
+  padding: 10px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
   nav a
   {
      color: antiquewhite;
@@ -36,26 +44,22 @@ body {
       background-color:#00223e ;
   }
 
-  .bar-icon{
+  nav.icon{
     display: none;
   }
 
   @media(max-width: 600px) {
-    nav {
+    nav.links {
       display:none;
     }
-    .bar-icon{
+    nav.icon{
       display: block;
-      font-size: 40px;
-      color: white;
-      margin-right: 20px;
-      margin-top: 10px;
     }
   }
   
   .flexhero-header
   {
-    height: 700px;
+    height: 600px;
     display: flex;
     justify-content: center;
     align-items: center;
