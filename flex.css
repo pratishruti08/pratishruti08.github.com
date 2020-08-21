@@ -55,6 +55,22 @@ header {
     nav.icon{
       display: block;
     }
+    
+    .facebook a{
+      font-size: 12px;
+    }
+    .github a{
+      font-size: 12px;
+    }
+    .twitter a{
+      font-size: 12px;
+    }
+    .email a{
+      font-size: 12px;
+    }
+    .call a{
+      font-size: 12px;
+    }
   }
   
   .flexhero-header
@@ -191,15 +207,13 @@ header {
 
 .Flex-contact {
   display: flex;
-  height: 300px;
+  height: 150px;
   margin: 0;
+  padding-top: 50px;
   background-color: rgb(41, 41, 41);
-  
+  text-align: center;
   justify-content: center;
   align-items: center;
-}
-.Flex-contact div {
-  text-align: center;
 }
 
 .Flex-contact .contact-greet {
@@ -208,6 +222,7 @@ header {
   font-size: 40px;
   font-weight: bold;
   color: white;
+  margin-top: 50px;
 }
 
 .Flex-contact .contact-tagline {
@@ -220,8 +235,12 @@ header {
   margin-bottom: 100px;
 }
 
-.Flex-contact .social-media {
+.social-media {
   display: flex;
+  height: 150px;
+  background-color: rgb(41, 41, 41);
+  text-align: center;
+  justify-content: center;
   width: 100%;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 30px;
@@ -232,11 +251,8 @@ header {
 .Flex-contact a{
   text-decoration: none;
 }
-.Flex-contact table {
-  margin-top: 40px;
-}
 
-.Flex-contact table td{
+.contactus{
   padding: 20px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 30px;
@@ -247,7 +263,6 @@ header {
 .smlogo{
   width: 17px;
   height: 20px;
-  padding-right: 5px;
 }
 
 .facebook a{
@@ -256,11 +271,10 @@ header {
 }
 
 .facebook{
-  padding: 40px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 30px;
   color: white;
-  
+  padding-right: 20px;
 }
 
 .facebook:hover{
@@ -271,12 +285,11 @@ header {
 }
 
 .github{
-  padding: 40px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 30px;
   color: white;
   text-decoration: none;
-  
+  padding-right: 20px;
 }
 .github a{
   color: white;
@@ -292,11 +305,10 @@ header {
 }
 
 .twitter{
-  padding: 40px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 30px;
   color: white;
-  
+  padding-right: 20px;
 }
 
 .twitter a{
@@ -312,11 +324,11 @@ header {
 }
 
 .email {
-  padding: 40px;
+  
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 30px;
   color: white;
-  
+  padding-right: 20px;
 }
 
 .email a{
@@ -333,11 +345,11 @@ header {
 }
 
 .call{
-  padding: 40px;
+  
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 30px;
   color: white;
-  
+  padding-right: 20px;
 }
 
 .call a{
