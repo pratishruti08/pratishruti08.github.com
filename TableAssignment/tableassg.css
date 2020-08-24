@@ -7,7 +7,7 @@
     font-family: "raleway", sans-serif;
     justify-self: center;
     justify-content: center;
-    width: 70%;
+    width: 80%;
     margin: auto;
 }
 @media (max-width: 900px) {
@@ -18,10 +18,7 @@
     .tds,
     .fvu,
     .etds {
-        font-size: 10px;
-    }
-    header a {
-        font-size: 10px;
+        font-size: 12px;
     }
 }
 header {
@@ -44,9 +41,10 @@ header {
     justify-content: center;
     align-items: center;
     height: 30px;
+    font-size: 12px;
     border: 1px solid rgb(100, 100, 100);
     border-radius: 15px;
-    padding: 0px 8px 0px 8px;
+    padding: 0px 5px 0px 5px;
 }
 .challan:hover {
     background-color: #e0dede;
@@ -70,7 +68,7 @@ header {
     height: 20px;
     width: 20px;
     padding: 5px;
-    left: -9px;
+    left: -7px;
     margin: 0;
     border: 1px solid rgb(100, 100, 100);
     border-radius: 50%;
@@ -78,6 +76,7 @@ header {
 header a {
     text-decoration: none;
     margin-left: 10px;
+    font-size: 14px;
 }
 
 .fvu-table {
@@ -85,6 +84,7 @@ header a {
     font-size: 18px;
     font-weight: bold;
     padding-left: 10px;
+    style="overflow-x:auto;"
 }
 
 .error {
