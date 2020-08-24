@@ -5,12 +5,13 @@
     border: 1px solid lightgray;
     border-radius: 15px 15px 0 0;
     font-family: "raleway", sans-serif;
+    font-size: 14px;
     justify-self: center;
     justify-content: center;
-    width: 80%;
+    width: 900px;
     margin: auto;
 }
-@media (max-width: 900px) {
+/*@media (max-width: 900px) {
     .main-container {
         width: 100%;
     }
@@ -20,8 +21,8 @@
     .etds {
         font-size: 12px;
     }
-}
-header {
+}*/
+.header {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
@@ -41,10 +42,9 @@ header {
     justify-content: center;
     align-items: center;
     height: 30px;
-    font-size: 12px;
     border: 1px solid rgb(100, 100, 100);
     border-radius: 15px;
-    padding: 0px 5px 0px 5px;
+    padding: 0px 8px 0px 8px;
 }
 .challan:hover {
     background-color: #e0dede;
@@ -68,25 +68,23 @@ header {
     height: 20px;
     width: 20px;
     padding: 5px;
-    left: -7px;
+    left: -9px;
     margin: 0;
     border: 1px solid rgb(100, 100, 100);
     border-radius: 50%;
 }
-header a {
+.header a {
     text-decoration: none;
     margin-left: 10px;
-    font-size: 14px;
 }
 
 .fvu-table {
     font-family: "lato", sans-serif;
-    font-size: 18px;
+    font-size: 10px;
     font-weight: bold;
     padding-left: 10px;
-    overflow-x: auto;
+    padding-right: 10px;
 }
-
 .error {
     color: rgb(189, 25, 25);
 }
@@ -122,9 +120,9 @@ header a {
     align-self: center;
     margin-top: 10px;
     margin-bottom: 50px;
-    font-size: 12px;
     margin-left: auto;
     margin-right: auto;
+    font-size: 12px;
 }
 .buttons {
     display: flex;
