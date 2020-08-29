@@ -118,13 +118,14 @@ header {
     background-color:#627194;  
     height: 80px; 
     padding-top: 10px;
+    padding-bottom: 50px;
 }
 
  .photos {
      background-color:#627194;     
     display: flex;
     flex-wrap: wrap; 
-    justify-content: center;
+    justify-content: space-around;
     
   }
   
@@ -137,7 +138,7 @@ header {
 .photos div {
   background-color: :#f1f1f1;  
 /*  width: 450px;*/
-  margin: 50px;
+  margin-bottom:50px;
   text-align: center;  
   font-size: 30px;
    
