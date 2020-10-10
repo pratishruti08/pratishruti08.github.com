@@ -10,9 +10,21 @@ body {
 .main-container {
     width: 100%;
 }
-@media screen(max-width:400px) {
+@media screen and (max-width: 400px) {
     .main-container {
-        width: 25%;
+    }
+
+    .middle-banner .left-right {
+        font-size: 12px;
+    }
+    .middle-banner .left-right i {
+        font-size: 10px;
+    }
+    .upside-banner .banner-title {
+        font-size: 12px;
+    }
+    .upside-banner .banner-subtitle {
+        font-size: 10px;
     }
 }
 header {
@@ -106,6 +118,7 @@ header {
     height: 100px;
     object-fit: cover;
     margin-left: 5px;
+    border-radius: 3px;
 }
 .resto-details {
     display: flex;
@@ -182,6 +195,7 @@ header {
     background-image: url("https://b.zmtcdn.com/application/images/pwa/o2_banner_background_blurred.jpg");
     height: 100px;
     align-items: center;
+    border-radius: 3px 3px 0 0;
 }
 .upper-banner img {
     width: 80px;
@@ -210,6 +224,7 @@ header {
     width: 100%;
     background-color: white;
     padding-bottom: 10px;
+    border-radius: 0 0 3px 3px;
 }
 .middle-banner {
     display: flex;

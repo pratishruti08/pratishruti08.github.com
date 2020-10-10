@@ -10,7 +10,7 @@ header {
     width: 100%;
     height: 600px;
     position: relative;
-    background-image: url("images/food-background.jpg");
+    background-image: url("https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png");
 }
 .profile {
     display: flex;
@@ -58,10 +58,12 @@ header {
     width: 100%;
     text-align: center;
     font-family: "roboto", sans-serif;
-    font-size: 40px;
+    font-size: 36px;
     margin: 30px 0px 10px 0px;
 }
+
 .city-container {
+    display: flex;
     width: 90%;
     margin: auto;
     margin-top: 30px;
@@ -74,6 +76,7 @@ header {
     border-radius: 10px;
 }
 .search-container {
+    display: flex;
     width: 90%;
     margin: auto;
     margin-top: 10px;
@@ -86,12 +89,117 @@ header {
     text-align: left;
     border-radius: 10px;
 }
+.location {
+    width: 200px;
+}
+.location-icon {
+    font-size: 22px;
+    color: red;
+    margin-right: 10px;
+}
+.drop-icon {
+    position: absolute;
+    right: 5px;
+    font-size: 24px;
+    color: gray;
+    margin-right: 10px;
+}
+.search-icon {
+    font-size: 22px;
+    color: gray;
+    margin-right: 10px;
+}
+.city-container {
+    display: none;
+}
+.search-container {
+    display: none;
+}
+.city-container-web {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 50%;
+    height: 50px;
+    background-color: white;
+    margin: 30px 25% 0 25%;
+    font-size: 16px;
+    font-weight: lighter;
+    position: relative;
+    text-align: left;
+    border-radius: 10px;
+}
+.city-container-web .fa-map-marker {
+    color: rgb(245, 112, 130);
+    font-size: 20px;
+    width: 30px;
+    text-align: center;
+}
+
+.city-container-web .fa-caret-down {
+    font-size: 20px;
+    margin-right: 8px;
+}
+.search {
+    width: 50%;
+}
+.search input[type="text"] {
+    width: 100%;
+    padding-left: 20px;
+    border-color: lightgray;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-bottom-style: hidden;
+    font-weight: lighter;
+}
+
+.search-button {
+    position: absolute;
+    text-align: center;
+    right: 0;
+    height: 50px;
+    width: 50px;
+    background-color: rgb(245, 112, 130);
+    color: white;
+    border-radius: 0 10px 10px 0;
+}
+.search-button i {
+    margin-top: 15px;
+    font-size: 22px;
+}
+
+@media screen and (max-width: 480px) {
+    .city-container {
+        display: flex;
+    }
+    .search-container {
+        display: flex;
+    }
+    .city-container-web {
+        display: none;
+    }
+}
+
+/*@media screen and (max-width: 700px) {
+    .city-container-web {
+        display: none;
+    }
+    .city-container {
+        display: flex;
+    }
+    .search-container {
+        display: flex;
+    }
+    .mobile-img {
+        display: none;
+    }
+}*/
 .safe-dining {
     height: 300px;
     color: white;
     margin: 5% 10% 0 10%;
     padding: 20px;
-    background-image: url("images/safedining.jpg");
+    background-image: url("https://b.zmtcdn.com/web/assets/c54845a4890ada2444a6c85c103584481594813963.png");
     background-repeat: no-repeat;
     background-size: cover;
     border: none;
@@ -128,9 +236,9 @@ header {
     font-size: 35px;
 }
 .safe-caption3 {
-    margin-top: 70px;
-    width: 100%;
-    font-size: 50px;
+    margin-top: 40px;
+    width: 70%;
+    font-size: 40px;
 }
 
 .images-container {
@@ -212,7 +320,7 @@ header {
     align-items: center;
 }
 .coll-images1 {
-    background-image: url("images/collection1.jpg");
+    background-image: url("https://b.zmtcdn.com/data/collections/e1d5e8f900dbca01d11f353ef4b6a97c_1581661395.jpg");
     height: 100%;
     background-position: center;
     width: 23%;
@@ -232,7 +340,7 @@ header {
     align-items: center;
 }
 .coll-images2 {
-    background-image: url("images/collection2.jpg");
+    background-image: url("https://b.zmtcdn.com/data/collections/c392056cfd7c02befe8d53f94ad2a908_1581933619.jpg");
     height: 100%;
     background-position: center;
     width: 24%;
@@ -241,7 +349,7 @@ header {
 }
 
 .coll-images3 {
-    background-image: url("images/collection3.jpg");
+    background-image: url("https://b.zmtcdn.com/data/collections/ea3586931f563bd32913134d1380dc18_1593576487.jpg");
     height: 100%;
     background-position: center;
     width: 24%;
@@ -250,7 +358,7 @@ header {
 }
 
 .coll-images4 {
-    background-image: url("images/collection4.jpg");
+    background-image: url("https://b.zmtcdn.com/data/collections/ac5506509e0773ed85740fe9bd257c74_1593579895.jpg");
     height: 100%;
     background-position: center;
     width: 24%;
